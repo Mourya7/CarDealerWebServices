@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.imourya.xfiles.contoller;
+
+/**
+ * @author mourya
+ *
+ */
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.imourya.xfiles.JohnDoeDealers;
+
+/**
+ * @author mourya
+ *
+ */
+
+@RestController
+@RequestMapping()
+public class DealerWebServices {
+	public static final String dealerServiceURI = "svc/v1/dealerServices";
+	public void getAllVehicles()
+	{
+		
+	}
+}

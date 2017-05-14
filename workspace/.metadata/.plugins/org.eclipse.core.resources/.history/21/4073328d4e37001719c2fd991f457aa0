@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.CarDealerWebServices.controller;
+
+import com.CarDealerWebServices.services.VehiclesReportService;
+
+/**
+ * @author mourya
+ *
+ */
+public class VehiclesReportController {
+	private VehiclesReportService vehicleReports = new VehiclesReportService();
+	
+	
+}

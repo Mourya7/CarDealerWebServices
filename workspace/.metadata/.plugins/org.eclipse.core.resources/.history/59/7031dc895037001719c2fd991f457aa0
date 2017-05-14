@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.CarDealerWebServices;
+
+/**
+ * @author mourya
+ *
+ */
+public class VehiclesReportsMain {
+	public static void main(String args[])
+	{
+		
+	}
+}

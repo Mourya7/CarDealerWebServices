@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.CarDealerWebServices.services;
+
+import com.CarDealerWebServices.data.Vehicles;
+
+/**
+ * @author mourya
+ *
+ */
+public class VehicleReportService {
+	private Vehicles vehicle = new Vehicles();
+	
+	public Collection<Vehicle> getAllVehicles()
+	{
+		return vehicle.getAllVehicles();
+	}
+	
+	public Collection<Vehicle> getAllVehiclesByPrice()
+	{
+		vehicle.getAllVehicles();
+	}
+}

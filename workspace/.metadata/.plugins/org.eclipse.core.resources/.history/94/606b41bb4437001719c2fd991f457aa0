@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.CarDealerWebServices.data;
+
+/**
+ * @author mourya
+ *
+ */
+public class Vehicle {
+
+}

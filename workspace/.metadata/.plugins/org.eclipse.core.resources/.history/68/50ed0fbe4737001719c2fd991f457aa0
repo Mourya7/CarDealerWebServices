@@ -1,0 +1,15 @@
+package com.CarDealerWebServices.data;
+
+import java.util.HashMap;
+
+/**
+ * @author mourya
+ * Define Vehicle properties.
+ * Define Get and Set for each property
+ */
+public class Vehicles {
+	private static HashMap<Integer,Vehicle> vehicles = new HashMap<Integer,Vehicle>() 
+			{
+				
+			};
+}

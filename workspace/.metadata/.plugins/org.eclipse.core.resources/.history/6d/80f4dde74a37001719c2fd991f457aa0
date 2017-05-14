@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.CarDealerWebServices.controller;
+
+/**
+ * @author mourya
+ *
+ */
+public class VehiclesReportController {
+
+}

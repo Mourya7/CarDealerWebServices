@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package com.CarDealerWebServices.data;
+
+/**
+ * @author mourya
+ *
+ */
+public class Vehicle {
+		private int VIN;
+		private String type;
+		private String brand;
+		private String color;
+		private String engine_type;
+		private int price;
+		private int year;
+		
+		public Vehicle(int VIN,String type,String brand, String color, String engine_type,int price,int year)
+		{
+			
+		}
+		
+		public vehicle()
+		{
+			
+		}
+}

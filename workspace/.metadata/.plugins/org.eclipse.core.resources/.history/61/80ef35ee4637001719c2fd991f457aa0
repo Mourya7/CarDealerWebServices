@@ -1,0 +1,10 @@
+package com.CarDealerWebServices.data;
+
+/**
+ * @author mourya
+ * Define Vehicle properties.
+ * Define Get and Set for each property
+ */
+public class Vehicles {
+	private static Map<Integer,Vehicles> vehicles;
+}

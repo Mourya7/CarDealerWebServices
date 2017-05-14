@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.CarDealerWebServices.controller;
+
+import com.CarDealerWebServices.services.VehiclesReportService;
+
+import java.util.Collection;
+
+import com.CarDealerWebServices.data.Vehicle;
+
+/**
+ * @author mourya
+ *
+ */
+@Service
+public class VehiclesReportController {
+	private VehiclesReportService vehicleReports = new VehiclesReportService();
+	
+	public Collection<Vehicle> getAllVehicles(){
+		return vehicleReports.getAllVehicles();
+	}
+	
+}

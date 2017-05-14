@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.CarDealerWebServices;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author mourya
+ *
+ */
+@SpringBootApplication
+public class VehiclesReportsMain {
+	public static void main(String args[])
+	{
+		SpringApplication.run(VehiclesReportsMain.class,args);
+	}
+}

@@ -1,0 +1,5 @@
+package com.CarDealerWebServices.data;
+
+public class Vehicle {
+
+}

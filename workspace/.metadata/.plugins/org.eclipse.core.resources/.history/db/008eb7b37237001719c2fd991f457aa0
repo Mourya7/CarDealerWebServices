@@ -1,0 +1,55 @@
+package com.CarDealerWebServices.data;
+
+import java.util.Collection;
+import java.util.HashMap;
+
+import org.springframework.stereotype.Repository;
+
+/**
+ * @author mourya
+ * Define Vehicle properties.
+ * Define Get and Set for each property
+ */
+
+@Repository
+public class Vehicles 
+{
+	private static HashMap<Integer,Vehicle> vehicles = new HashMap<Integer,Vehicle>() 
+	{
+		{
+			put(1,new Vehicle(1234,"Truck","GMC","Red","Gas",24000,2016));
+			put(2,new Vehicle(1235,"Car","Toyota","Green","Hybrid",27000,2015));
+		}
+	};
+			
+	public Collection <Vehicle> getAllVehicles()
+	{
+		return this.vehicles.values();
+	}
+	
+	public Vehicle getVehicleById(int id)
+	{
+		for(int i=0;i<vehicles.size();i++)
+		{
+			if(vehicles.get(i).getVehicleID() == id)
+			{
+				vehicleResultsByPrice.put(results,vehicles.get(i));
+			}
+		}
+		return this.vehicles.get();
+	}
+	
+	public Collection <Vehicle> getVehiclesByPrice(int price)
+	{
+		HashMap<Integer,Vehicle> vehicleResultsByPrice = new HashMap<Integer,Vehicle>();
+		int results = 1;
+		for(int i=0;i<vehicles.size();i++)
+		{
+			if(vehicles.get(i).getPrice() == price)
+			{
+				vehicleResultsByPrice.put(results,vehicles.get(i));
+			}
+		}
+		return vehicleResultsByPrice.values();
+	}
+}

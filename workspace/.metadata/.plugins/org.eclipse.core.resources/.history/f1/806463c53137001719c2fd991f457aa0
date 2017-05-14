@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.imourya.xfiles.contoller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author mourya
+ *
+ */
+
+@RestController
+public class DealerServiceContoller {
+	
+}
